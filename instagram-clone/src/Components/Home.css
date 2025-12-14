@@ -1,0 +1,123 @@
+:root {
+  --ig-black: #000000;
+  --ig-dark: #121212;
+  --ig-border: #262626;
+  --ig-text: #ffffff;
+  --ig-text-muted: #a8a8a8;
+
+  --ig-gradient: linear-gradient(
+    45deg,
+    #ff0077,
+    #f56040,
+    #fd1d1d,
+    #c13584
+  );
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.landing {
+  min-height: 100vh;
+  background: var(--ig-black);
+  display: flex;
+  flex-direction: column;
+  color: var(--ig-text);
+}
+
+.landing-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 40px;
+  background: var(--ig-dark);
+  border-bottom: 1px solid var(--ig-border);
+}
+
+.landing-logo {
+  font-size: 34px;
+  font-family: cursive;
+  background: var(--ig-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.landing-actions button {
+  margin-left: 12px;
+}
+
+.btn-outline {
+  padding: 8px 18px;
+  background: transparent;
+  border: 1px solid #ff3040;
+  color: #ff3040;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.btn-outline:hover {
+  background: rgba(255, 48, 64, 0.15);
+}
+
+.btn-primary {
+  padding: 8px 18px;
+  background: var(--ig-gradient);
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+}
+
+.landing-main {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.landing-main h2 {
+  font-size: 36px;
+  margin-bottom: 18px;
+  font-weight: 600;
+}
+
+.landing-main p {
+  font-size: 18px;
+  color: var(--ig-text-muted);
+  max-width: 720px;
+  margin: 0 auto 45px;
+  line-height: 1.6;
+}
+
+.landing-features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 28px;
+}
+
+.feature {
+  background: var(--ig-dark);
+  border: 1px solid var(--ig-border);
+  border-radius: 14px;
+  padding: 28px 22px;
+  text-align: left;
+}
+
+.feature h3 {
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.feature p {
+  font-size: 14px;
+  color: var(--ig-text-muted);
+}
+
