@@ -4,40 +4,36 @@ An Instagram-inspired web application that replicates core social media features
 
 ---
 
-## 🚀 Features
+# Features
 
-- 🔐 User Authentication (Login / Signup)
-- 👤 User Profiles
-- 🖼️ Upload Posts with Images & Captions
-- ❤️ Like & Unlike Posts
-- 📰 Feed Display (Latest Posts)
-- 🗑️ Delete Own Posts
-- 📱 Responsive UI (Mobile Friendly)
+-  User Authentication (Login / Signup)
+-  User Profiles
+-  Upload Posts with Images & Captions
+-  Like & Unlike Posts
+-  Feed Display (Latest Posts)
+-  Responsive UI (Mobile Friendly)
 
 ---
 
-## 🛠️ Tech Stack
+# Tech Stack
 
-### Frontend
+ Frontend
 - HTML
 - CSS
 - JavaScript
-- React JS *(if used)*
+- React JS 
 
-### Backend
+# Backend
 - Node.js
-- Express.js
 
-### Database
+
+# Database
 - MongoDB
 
-### Other Tools
+# Other Tools
 - Git & GitHub
-- JWT for Authentication
-- Multer (for Image Uploads)
-- Cloudinary / Local Storage *(if used)*
+- Visual studio code
 
 ---
 
-## 📂 Project Structure
 
